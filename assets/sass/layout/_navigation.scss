@@ -4,4 +4,20 @@ nav {
     background-color: $c-primary;
     min-height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+
+    img{
+        height: auto;
+        width: 160px;
+        margin: 0 auto 20px auto;
+    }
+    ul{
+        font-weight: bold;
+        li{
+            margin-top: 20px;
+        }
+    }
 }

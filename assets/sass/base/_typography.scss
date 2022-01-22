@@ -1,0 +1,50 @@
+* {
+    color: $c-dark;
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    font-family: $f-principal;
+    font-size: 47px;
+    font-weight: 900;
+}
+h2{
+    font-family: $f-principal;
+    font-size: 32px;
+    font-weight: 900;
+}
+h3{
+    font-family: $f-principal;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+p {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.intro{
+&__direction{    
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;}
+&__email{    text-transform: lowercase;
+    font-weight: bold;}
+    &__icons{
+        i{
+            padding: 20px 16px 0 0;
+            color: $c-secondary;
+        }
+    }
+&__paragraph{
+
+    margin-bottom: 50px;
+}
+
+}
+

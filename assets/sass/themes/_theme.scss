@@ -1,4 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
-    display: flex;
     font-family: $f-principal;
+}
+.full {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    h2{
+        margin-bottom: 70px;
+    }
+}
+.container{
+    margin-left: 250px;
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+}
+.section-content{
+    margin-bottom:30px;
 }
